@@ -1,0 +1,25 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    height: 700px;
+    width: 350px;
+    margin-left: 33%;
+    margin-top: 3%;
+    border: 1px transparent;
+}
+fieldset {
+    height: 500px;
+    width: 350px;
+    border: none;
+}
+#X {
+    display: block;
+    float: right;
+    margin-right: -20px;
+}
+legend {
+    color: rgb(34, 34, 167);
+    font-size: 40px;
+}
