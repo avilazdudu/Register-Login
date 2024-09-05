@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="">
+        <input type="button" value="X" id="X">
+        <fieldset>
+            <legend>Cadastrar</legend>
+            <div class="main">
+                <label class="label" for="user">Usuário</label>
+                <input type="text" name="user" id="user">
+            </div>
+            <div class="main">
+                <label class="label" for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="main">
+                <label class="label" for="confirmar">Confirmar Senha</label>
+                <input type="password" name="confirmar" id="confirmar">
+            </div>
+            <div>
+                <label class="exibir" for="exibir">Exibir senha</label>
+                <input  type="checkbox" name="exibir" id="exibir">
+            </div>
+           <div class="botao"> 
+            <input type="button" value="Cadastrar" id="entrar">
+            </div>
+            <label class="labelbaixo" for="sistema">Possui uma conta</label>
+            <div class="baixo">
+                <a href="login.html"><input type="button" value="Entrar no sistema" id="link"> </a>
+            </div>
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
