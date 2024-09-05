@@ -97,7 +97,7 @@ input {
     border: none;
     width: 91%;
     height: 40px;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-bottom: 15%;
 }
 #link {
@@ -110,4 +110,7 @@ input {
    margin-left: -10px;
    background-color: white;
    border: none;   
+}
+#cadastro {
+    margin-left: 100px;
 }
